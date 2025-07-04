@@ -1,0 +1,128 @@
+
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #f7f2e9;
+  color: #4a3f35;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #5b4a3b;
+  text-align: center;
+  padding: 100px 20px;
+  color: #f1e8dc;
+}
+
+header h1 {
+  font-size: 48px;
+  font-family: 'Courier New', monospace;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: #3e2f23;
+  padding: 12px;
+  text-align: center;
+}
+
+nav a {
+  color: #f1e8dc;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #cbb28f;
+}
+
+section {
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+section h2 {
+  font-size: 32px;
+  border-bottom: 2px solid #4a3f35;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  font-family: 'Georgia', serif;
+}
+
+.produtos, .categorias, .sobre, .contato {
+  margin-bottom: 50px;
+}
+
+.produtos ul, .categorias ul, .contato ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.produtos li, .categorias li, .contato li {
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.botao {
+  background-color: #7e6446;
+  color: #f1e8dc;
+  padding: 12px 24px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+  background-color: #a1825d;
+}
+
+.contato a {
+  color: #4a3f35;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+.contato a:hover {
+  color: #a1825d;
+}
+
+footer {
+  background-color: #3e2f23;
+  color: #f1e8dc;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 32px;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  section h2 {
+    font-size: 24px;
+  }
+
+  .botao {
+    width: 100%;
+    text-align: center;
+  }
+}
