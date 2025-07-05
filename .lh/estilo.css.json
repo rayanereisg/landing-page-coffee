@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 6,
+            "activePatchIndex": 22,
             "patches": [
                 {
                     "date": 1751672383880,
@@ -32,6 +32,70 @@
                 {
                     "date": 1751673046550,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   line-height: 1.6;\n }\n \n header {\n-  background-color: #984c08;\n+  background-color: #5b4a3b;\n   text-align: center;\n   padding: 100px 20px;\n   color: #f1e8dc;\n }\n"
+                },
+                {
+                    "date": 1751673128657,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n \n header {\n   background-color: #5b4a3b;\n   text-align: center;\n-  padding: 100px 20px;\n+  padding: 100px 50px;\n   color: #f1e8dc;\n }\n \n header h1 {\n"
+                },
+                {
+                    "date": 1751673137486,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n \n header {\n   background-color: #5b4a3b;\n   text-align: center;\n-  padding: 100px 50px;\n+  padding: 100px 0px;\n   color: #f1e8dc;\n }\n \n header h1 {\n"
+                },
+                {
+                    "date": 1751673145708,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,10 +8,10 @@\n }\n \n header {\n   background-color: #5b4a3b;\n-  text-align: center;\n-  padding: 100px 0px;\n+  text-align:;\n+  padding: 100px 20px;\n   color: #f1e8dc;\n }\n \n header h1 {\n"
+                },
+                {
+                    "date": 1751673151833,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n }\n \n header {\n   background-color: #5b4a3b;\n-  text-align:;\n+  text-align:right0\n   padding: 100px 20px;\n   color: #f1e8dc;\n }\n \n"
+                },
+                {
+                    "date": 1751673158404,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n }\n \n header {\n   background-color: #5b4a3b;\n-  text-align:right0\n+  text-align:right;\n   padding: 100px 20px;\n   color: #f1e8dc;\n }\n \n"
+                },
+                {
+                    "date": 1751673171848,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n }\n \n header {\n   background-color: #5b4a3b;\n-  text-align:right;\n+  text-align:c;\n   padding: 100px 20px;\n   color: #f1e8dc;\n }\n \n"
+                },
+                {
+                    "date": 1751673183906,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,10 +8,10 @@\n }\n \n header {\n   background-color: #5b4a3b;\n-  text-align:c;\n-  padding: 100px 20px;\n+  text-align:center;\n+  padding: 10px 20px;\n   color: #f1e8dc;\n }\n \n header h1 {\n"
+                },
+                {
+                    "date": 1751673193147,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n \n header {\n   background-color: #5b4a3b;\n   text-align:center;\n-  padding: 10px 20px;\n+  padding: 100px 20px;\n   color: #f1e8dc;\n }\n \n header h1 {\n"
+                },
+                {
+                    "date": 1751673220371,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n }\n \n header p {\n   font-size: 20px;\n-  max-width: 600px;\n+  max-width: 700px;\n   margin: 0 auto;\n }\n \n nav {\n"
+                },
+                {
+                    "date": 1751673586474,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,9 @@\n \n header {\n   background-color: #5b4a3b;\n   text-align:center;\n+  \n   padding: 100px 20px;\n   color: #f1e8dc;\n }\n \n"
+                },
+                {
+                    "date": 1751673780544,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n \n header {\n   background-color: #5b4a3b;\n   text-align:center;\n-  \n+\n   padding: 100px 20px;\n   color: #f1e8dc;\n }\n \n"
+                },
+                {
+                    "date": 1751673792423,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,8 @@\n \n header {\n   background-color: #5b4a3b;\n   text-align:center;\n-\n   padding: 100px 20px;\n   color: #f1e8dc;\n }\n \n"
+                },
+                {
+                    "date": 1751673813033,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n \n body {\n   margin: 0;\n-  font-family: 'Georgia', serif;\n+  font-family: 'Cinzel', serif;\n   background-color: #f7f2e9;\n   color: #4a3f35;\n   line-height: 1.6;\n }\n"
+                },
+                {
+                    "date": 1751673833165,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n \n body {\n   margin: 0;\n-  font-family: 'Cinzel', serif;\n+  font-family: 'Georgia', serif;\n   background-color: #f7f2e9;\n   color: #4a3f35;\n   line-height: 1.6;\n }\n"
+                },
+                {
+                    "date": 1751673838441,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,8 @@\n \n header h1 {\n   font-size: 48px;\n   font-family: 'Cinzel', serif;\n-\n   margin-bottom: 10px;\n }\n \n header p {\n"
+                },
+                {
+                    "date": 1751674247681,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,12 @@\n }\n \n header {\n   background-color: #a25511;\n-  background-image: url('images/image.jpg');\n+  background-image: url('landing page-café\n+/imagem.png\n+Copiar caminho\n+);\n \n   text-align:center;\n   padding: 100px 20px;\n   color: #f1e8dc;\n"
                 }
             ],
             "date": 1751672383880,

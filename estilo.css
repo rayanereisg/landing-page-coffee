@@ -8,7 +8,15 @@ body {
 }
 
 header {
-  background-color: #5b4a3b;
+  background-color: #a25511;
+  background-image: url('image.png');
+  background-size: cover;
+  background-position: center;
+  /* height: 40px;  -- REMOVIDO */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   padding: 100px 20px;
   color: #f1e8dc;
@@ -16,13 +24,13 @@ header {
 
 header h1 {
   font-size: 48px;
-  font-family: 'Courier New', monospace;
+  font-family: 'Cinzel', serif;
   margin-bottom: 10px;
 }
 
 header p {
   font-size: 20px;
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
