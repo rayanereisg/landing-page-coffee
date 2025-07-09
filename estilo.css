@@ -9,7 +9,7 @@ body {
 
 header {
   background-color: #a25511;
-  background-image: url('image.png');
+  background-image: url('imagem/image.png');
   background-size: cover;
   background-position: center;
   /* height: 40px;  -- REMOVIDO */
